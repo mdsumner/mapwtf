@@ -9,6 +9,14 @@
 Stores topography in densest form possible for entire earth, and provides some functions
  for generating a random plot in any projection with topography data on it.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/mdsumner/mapwtf}
+  \item Report bugs at \url{https://github.com/mdsumner/mapwtf/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: Michael Sumner \email{mdsumner@gmail.com}
 

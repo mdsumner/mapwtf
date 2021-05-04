@@ -4,6 +4,8 @@
 # mapwtf
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/mdsumner/mapwtf/workflows/R-CMD-check/badge.svg)](https://github.com/mdsumner/mapwtf/actions)
 <!-- badges: end -->
 
 The goal of mapwtf is to plot topography for simple maps anywhere. Might
