@@ -17,5 +17,6 @@ plot a rough graticule over a projected raster
 }
 \examples{
 x <- any_region()
+raster::plot(raster::extent(x))
 grat(x)
 }

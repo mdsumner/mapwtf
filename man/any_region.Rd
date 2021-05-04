@@ -10,8 +10,6 @@ any_region(width = 50000, ...)
 \item{width}{buffer with in metres}
 
 \item{...}{proj4 parameters passed to internal function}
-
-\item{pt}{lonlat pair}
 }
 \value{
 RasterLayer

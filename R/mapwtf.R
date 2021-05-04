@@ -1,3 +1,4 @@
+#' @importFrom stats runif
 any_proj <- function(proj = "laea", lon_0=runif(1L, -180, 180), lat_0=runif(1L, -90, 90), ...) {
   l <- c(as.list(c(proj = proj, lon_0 = lon_0, lat_0 = lat_0)), list(...))
   paste(paste0("+", names(l), "=", unlist(l)), collapse = " ")
@@ -5,7 +6,6 @@ any_proj <- function(proj = "laea", lon_0=runif(1L, -180, 180), lat_0=runif(1L, 
 
 #' Generate a gridded region anywhere
 #'
-#' @param pt lonlat pair
 #' @param width buffer with in metres
 #' @param ... proj4 parameters passed to internal function
 #'
@@ -54,6 +54,7 @@ populate_topo <- function(x) {
 #' @importFrom raster setValues projection coordinates contour
 #' @examples
 #' x <- any_region()
+#' raster::plot(raster::extent(x))
 #' grat(x)
 grat <- function(x) {
   xy <- raster::coordinates(x)
