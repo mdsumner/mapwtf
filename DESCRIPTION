@@ -21,3 +21,5 @@ Imports:
     geosphere,
     raster
 Remotes: sosoc/croc
+URL: https://github.com/mdsumner/mapwtf
+BugReports: https://github.com/mdsumner/mapwtf/issues
