@@ -1,0 +1,23 @@
+Package: mapwtf
+Title: Maps Anywhere
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Michael",
+           family = "Sumner",
+           role = c("aut", "cre"),
+           email = "mdsumner@gmail.com")
+Description: Stores topography in densest form possible for entire earth, and provides some functions
+ for generating a random plot in any projection with topography data on it. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
+Imports: 
+    rgdal,
+    croc,
+    geosphere,
+    raster
+Remotes: sosoc/croc
