@@ -1,3 +1,6 @@
+globalVariables("topo")
+
+
 #' @importFrom stats runif
 any_proj <- function(proj = "laea", lon_0=runif(1L, -180, 180), lat_0=runif(1L, -90, 90), ...) {
   l <- c(as.list(c(proj = proj, lon_0 = lon_0, lat_0 = lat_0)), list(...))
